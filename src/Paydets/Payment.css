@@ -1,0 +1,87 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.payment h1 {
+  margin: 0 10px;
+  font-weight: 700px;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.payment p {
+  width: 80%;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #6d6d6d;
+}
+
+.payment p span {
+  font-size: inherit;
+  color: white;
+  border-bottom: 3px solid #99c2ff;
+}
+
+.payment-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 15px 0;
+}
+
+.payment-col div {
+  width: 300px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+  margin: 8px;
+  background-color: #1e1f21;
+}
+
+.payment-col div img {
+  height: auto;
+  width: 50px;
+}
+
+.payment-col div h1 {
+  font-size: 1.5rem;
+}
+
+.payment-col div p {
+  font-size: 1.2rem;
+  color: #6d6d6d;
+}
+
+@media screen and (max-width: 600px) {
+  .payment h1 {
+    font-size: 3.5rem;
+  }
+
+  .payment-col div {
+    width: 80%;
+    height: 150px;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  .payment-col div h1 {
+    font-size: 1.2rem;
+  }
+
+  .payment-col div p {
+    font-size: 1rem;
+  }
+}

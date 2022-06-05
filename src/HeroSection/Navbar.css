@@ -1,0 +1,50 @@
+nav {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3.7rem;
+}
+
+nav div:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+
+.brand-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+nav div:nth-child(2) p {
+  outline: 2px solid white;
+  padding: 10px 15px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-get {
+  background-color: #26262b;
+  margin-left: 35px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 720px) {
+  nav {
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #3b3b3d;
+    margin-bottom: 15px;
+    flex-direction: column;
+    height: 180px;
+  }
+}

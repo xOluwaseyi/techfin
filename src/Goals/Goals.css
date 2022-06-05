@@ -1,0 +1,33 @@
+.goals {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.goals div {
+  width: 70%;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.goals p {
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 1.5;
+}
+
+.goals img {
+  position: absolute;
+  right: -7px;
+  bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .goals p {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,112 @@
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.download {
+  background: url("../images/ellipse1.png") bottom center no-repeat,
+    url("../images/ellipse3.png") bottom center no-repeat,
+    url("../images/ellipse2.png") bottom center no-repeat;
+}
+
+.beta-top {
+  margin: 15px 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.beta-text {
+  width: 35%;
+  font-size: 1.4rem;
+  color: #6d6d6d;
+  padding-left: 15px;
+}
+
+.download-page {
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  align-items: center;
+  font-size: 8rem;
+  flex-wrap: wrap;
+}
+
+.dp-1 {
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dp-1 div {
+  margin: 10px 0;
+}
+
+.dp-1-2 h1 {
+  font-size: 6rem;
+}
+
+.dp-1-3 p {
+  font-size: 1.4rem;
+  color: #6d6d6d;
+}
+
+.dp-1-4 {
+  display: flex;
+  align-items: center;
+}
+
+.dp-1-4 p {
+  background-color: #26262b;
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  margin-right: 100px;
+}
+
+/* dp 2 */
+
+.dp-2 {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dp-2 img {
+  height: 400px;
+}
+
+@media screen and (max-width: 560px) {
+  .dp-1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dp-1-4 p {
+    margin: 0;
+  }
+
+  .dp-1-2 h1 {
+    font-size: 4rem;
+  }
+  .dp-1 div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .beta-text {
+    width: 100%;
+  }
+
+  .dp-2 img {
+    height: 300px;
+    width: 100%;
+  }
+}

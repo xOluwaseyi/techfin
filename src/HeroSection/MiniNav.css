@@ -1,0 +1,42 @@
+.mini-nav {
+  height: auto;
+}
+
+.mini-nav ul {
+  width: 450px;
+  margin: 20px;
+  height: 43px;
+  display: flex;
+  background-color: white;
+  color: black;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.mini-nav ul li {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.mini-nav ul li:nth-child(1) {
+  color: white;
+  background-color: black;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .mini-nav ul li {
+    font-size: 1.8rem;
+  }
+
+  .mini-nav ul li:nth-child(1) {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+}
