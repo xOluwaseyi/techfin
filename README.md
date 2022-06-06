@@ -1,4 +1,4 @@
-##### Live Websute:
+##### Live Website:
 
 [TechFin](https://techfindemo.netlify.app/).
 
